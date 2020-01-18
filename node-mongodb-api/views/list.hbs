@@ -1,0 +1,16 @@
+<h1>
+	Users
+</h1>
+
+<table>
+	<tr>
+		<th>ID</th>
+		<th>Name</th>
+	</tr>
+	{{#each data}}
+	<tr>
+		<th>{{this.userID}}</th>
+		<th>{{this.userName}}</th>
+	</tr>
+	{{/each}}
+</table>
